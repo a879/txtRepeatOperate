@@ -1,3 +1,6 @@
+# 通过io打开目标路径的文件，遍历文件内容，添加到列表中
+# io操作 r+ 不能修改为a+, 无法处理
+# io操作read无法同时执行两次
 # fileUrl = 'C:/Users/knowto/Downloads/cdk.txt'
 
 fileUrl = str(input('输入文件路径'))
